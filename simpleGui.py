@@ -14,7 +14,7 @@ text1 = Text(root, borderwidth=4, relief="groove")
 text1.grid(row=1, column=0, sticky="nsew", padx=10, pady=10, columnspan=2)
 txt1 = """Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 """
-text1.insert(END,txt1)
+text1.insert(END, txt1)
 
 # scrollb1 = Scrollbar(root, orient="vertical", command=text1.yview)
 # scrollb1.grid(row=1, column=1, sticky='ns')
@@ -58,6 +58,4 @@ root.grid_rowconfigure(1, weight=1)
 root.grid_columnconfigure(0, weight=1)
 root.grid_columnconfigure(1, weight=1)
 
-
-# root.geometry('600x400')
 root.mainloop()
